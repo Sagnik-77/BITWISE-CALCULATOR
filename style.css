@@ -1,0 +1,45 @@
+*{
+    background-color: #1B1A17;
+}
+.container {
+    max-width: 400px;
+    margin: 10vh auto 0 auto;
+
+}
+
+#display {
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 25px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+.button {
+    border: 0.5px solid #FF5F00;
+    line-height: 100px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+    font-family: sans-serif;
+}
+
+#equal {
+    background-color: #FF5F00;
+    color: white;
+}
+
+.button:hover {
+    background-color: #FF5F00;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
